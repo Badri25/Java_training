@@ -4,6 +4,7 @@ import java.util.*;
 
 import main.Days.Day1.Day1;
 import main.Days.Day2.Day2;
+import main.Days.Day3.Day3;
 public class Days {
 	private int days;
    public Days(int d) {
@@ -24,6 +25,10 @@ public void start()  {
 			day2.start();
 			break;
 	
+		case 3:
+			Day3 day3 = new Day3(ques);
+			day3.start();
+			break;
 		default:
 			System.out.println("Error");
 		}
